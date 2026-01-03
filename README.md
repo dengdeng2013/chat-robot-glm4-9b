@@ -16,8 +16,6 @@ source ~/.bashrc
 conda activate py310_chat
 Modify the inference process: Place the backend file chat-robot-glm4-9b.py in the root directory. (This operation transforms the original large language model from performing only inference into a fine-tuned, personalized learning recommendation system Q&A bot.)
 
-===== Page 2 =====
-
 Execute pip install codewithgpu and cg down xxxiu/glm-4-9b-chat to download the base large model into autodl-tmp.
 
 II. Connecting to the System Image and Local Operations Using CMD
@@ -28,19 +26,10 @@ The following interface indicates success:
 
 Building a Chatbot
 
-===== Page 3 =====
-
 text
 Microsoft Windows [Version 10.0.22631.S189]
 (c) Microsoft Corporation. All rights reserved.
 
-C:\Users\fjh>ssh -m 13981 root@connect.cqa1.sgetac.com
-root@connect.cqa1.seetacloud.com's password:
-Welcome to Ubuntu 20.04.5 LTS (GNU/Linux 5.15.0-94-generic x86_64)
-
- * Documentation:  https://help.ubuntu.com
- * Management:     https://landscape.canonical.com
- * Support:        https://ubuntu.com/advantage
 
 This system has been minimized by removing packages and content that are
 not required on a system that users do not log into.
@@ -67,8 +56,6 @@ Second Image Connection: Create a second CMD terminal window to establish a loca
 
 Building a Chatbot
 
-===== Page 4 =====
-
 Perform Port Forwarding Locally:
 
 Click on "Custom Service".
@@ -92,8 +79,6 @@ If there is no other output after entering the password and pressing Enter, it i
 
 Open http://localhost:6006 to access the custom service.
 
-===== Page 5 =====
-
 If the above interface remains, it indicates a successful connection.
 
 III. Open the local frontend file index.html in chatbot_html-master to verify if the system is built successfully
@@ -114,7 +99,6 @@ If a response appears, it indicates a successful build.
 
 Building a Chatbot
 
-===== Page 6 =====
 
 Chatbot
 
